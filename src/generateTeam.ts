@@ -70,7 +70,7 @@ interface Player {
   role: (typeof roles)[number] | "";
 }
 
-interface Team {
+export interface Team {
   name: string;
   id: number;
   players: Player[];
